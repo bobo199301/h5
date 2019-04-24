@@ -1,0 +1,107 @@
+html body {
+  font-family: 'PingFang SC,Helvetica Neue,Hiragino Sans GB,Helvetica,Microsoft YaHei,Arial';
+  background: #eee;
+  font-size: 14px;
+  padding: 0px;
+  margin: 0px;
+//   background: #F3F6F8;
+  background: #f9f9f9;
+}
+*{
+//   font-family:'PingFangSC-Medium';
+
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+*{
+  -webkit-touch-callout:none;  /*系统默认菜单被禁用*/
+  // -webkit-user-select:none; /*webkit浏览器*/
+  // -khtml-user-select:none; /*早期浏览器*/
+  // -moz-user-select:none;/*火狐*/
+  // -ms-user-select:none; /*IE10*/
+  // user-select:none;
+  -webkit-overflow-scrolling: touch;
+}
+input {
+  -webkit-user-select:auto; /*webkit浏览器*/
+}
+
+
+a {
+  text-decoration: none
+}
+.fr{
+  float: right;
+}
+.fl{
+  float: left;
+}
+.f12{
+  font-size: 12px;
+}
+.f14{
+  font-size: 14px;
+}
+.f16{
+  font-size: 16px;
+}
+.f18{
+  font-size: 18px;
+}
+.clear-fix {
+  *zoom: 1;
+}
+
+.clear-fix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.ellipsis {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+ul li{
+  list-style-type: none;
+}
+img{
+  vertical-align: bottom;
+}
+.bg-color{
+  background: #eee;
+}
+
+.dis{
+  display: none;
+}
+
+[aspectratio] {
+  position: relative;
+}
+[aspectratio]::before {
+  content: '';
+  display: block;
+  width: 1px;
+  margin-left: -1px;
+  height: 0;
+}
+
+[aspectratio-content] {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+}
+[w-60-60]{
+  width: 60px;
+}
+[w-60-60]{
+  aspect-ratio:'60:60';
+}
+.element::-webkit-scrollbar {display:none}
